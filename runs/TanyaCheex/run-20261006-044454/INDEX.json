@@ -1,0 +1,416 @@
+{
+  "exit_codes": {
+    "01_cf_edge_ai_audit.py": "0",
+    "02_lan_iot_firmware_sweep.sh": "0",
+    "03_hw_security_blindspots.sh": "0",
+    "04_github_ai_consolidation.py": "0",
+    "05_local_ai_mcp_audit.sh": "0",
+    "06_fleet_ssh_inventory.sh": "0",
+    "07_router_config_capture.sh": "1",
+    "08_cloud_deep_audit.py": "0",
+    "09_github_deep_audit.py": "0",
+    "10_storage_health.sh": "0",
+    "11_services_matrix.sh": "0",
+    "12_secrets_posture.sh": "0"
+  },
+  "files": [
+    {
+      "bytes": 141,
+      "class": "logs",
+      "name": "01_cf_edge_ai_audit.py.log",
+      "sha256": "7cbb7fe0d607746c9ec165ff34f829c411d984eeda7d6c5396d3c3d4433c931c",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 238,
+      "class": "raw",
+      "name": "01_cf_edge_ai_audit_result.json",
+      "sha256": "2b7f6666d878cd8769058d326609fa96889a773dcd76e1e897383b94b8710a12",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 219,
+      "class": "logs",
+      "name": "02_lan_iot_firmware_sweep.log",
+      "sha256": "6a9028fa7dcc0826f8792acfb1991556b733f952841db844aea3b5193ab440cb",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 19601,
+      "class": "raw",
+      "name": "02_lan_iot_firmware_sweep_result.json",
+      "sha256": "2d7a84c172e492a1b49e349f3708554696f7328e700d280117df4012d9fb787d",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 223,
+      "class": "logs",
+      "name": "03_hw_security_blindspots.log",
+      "sha256": "826dc4506e941918d4b8a71fdd630569c2815b46033b7f156100ba2ddbf4d972",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 6253,
+      "class": "raw",
+      "name": "03_hw_security_blindspots_result.json",
+      "sha256": "d59d9fc8ddc7941fe0103b9f3d4c9dedcbb07f37589a4f5df28a8fb94f2adb12",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 148,
+      "class": "logs",
+      "name": "04_github_ai_consolidation.py.log",
+      "sha256": "99fefea3cfe12a0f62231c22f64d61df486646f78bdc0c68af9cd88efdcb5305",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 245,
+      "class": "raw",
+      "name": "04_github_ai_consolidation_result.json",
+      "sha256": "7eea5c7dba9203f39ffbb18b913186233ca44ec78ca477952c28106f7d1f31b1",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 220,
+      "class": "logs",
+      "name": "05_local_ai_mcp_audit.log",
+      "sha256": "7896297194a8e3ffbe5de68f90127278090f65ec3794baa5d0ab7b771aa780f7",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 1047,
+      "class": "raw",
+      "name": "05_local_ai_mcp_audit_result.json",
+      "sha256": "1ceb58b45de19502473cf75366e529afd58d495ed0aae259037b2b80914e1038",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 304,
+      "class": "logs",
+      "name": "06_fleet_ssh_inventory.log",
+      "sha256": "ecc449742edff21f80c7fae220448f08cb472e73198d7bbe4ebac2b97b07290e",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 2842,
+      "class": "raw",
+      "name": "06_fleet_ssh_inventory_result.json",
+      "sha256": "86d9a15ffc93ee0895310535e59bf1507d53ca032024c7ec3ec540a354b4c64b",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 213,
+      "class": "logs",
+      "name": "07_router_config_capture.log",
+      "sha256": "80058dcc07316eb811342cb6a2d275b0e941025f4423c76d15a7a5f510e9905d",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 141,
+      "class": "logs",
+      "name": "08_cloud_deep_audit.py.log",
+      "sha256": "03e9835f463abb50387fa42a8d867308a96fa75e402525d9ed9632a6f6ed899a",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 197,
+      "class": "raw",
+      "name": "08_cloud_deep_audit_result.json",
+      "sha256": "ef07c122a33c56bc10f97a92b120b3b4077959db44ebb6206b164453cf30099d",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 142,
+      "class": "logs",
+      "name": "09_github_deep_audit.py.log",
+      "sha256": "36ca167ab29a72c6826eaf6840da713dbd9be800432d7cc0f3433dc7026e9bdd",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 198,
+      "class": "raw",
+      "name": "09_github_deep_audit_result.json",
+      "sha256": "5ac9489dae9e9d3cd3d7e39475973a21d5e332fa4fa140ee828d03854cd7e072",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 177,
+      "class": "logs",
+      "name": "10_storage_health.log",
+      "sha256": "a9cac26fb44f13d073ad36d0f2bdeaeee400528edb1a5f050d0707d1ca168fc8",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 1710,
+      "class": "raw",
+      "name": "10_storage_health_result.json",
+      "sha256": "1be6397e34c3402e80610495188b365ca985b857d69bf1e8a6fd99f384fe8e0f",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 192,
+      "class": "logs",
+      "name": "11_services_matrix.log",
+      "sha256": "61eef22f7f3312ebeaa47a76c0565a3c4bec4c1179bc040dc9f95d2b76d714d3",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 2027,
+      "class": "raw",
+      "name": "11_services_matrix_result.json",
+      "sha256": "a3e338a610e251daeb38d48208ea1424745484634d0a2aa338852e3b101c530f",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 144,
+      "class": "logs",
+      "name": "12_secrets_posture.log",
+      "sha256": "e1deae1d5ec5a2a660e74640d045061147c2760f57b4a752b676ec9b2b1677ee",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 2511,
+      "class": "raw",
+      "name": "12_secrets_posture_result.json",
+      "sha256": "33d72f8d3799a6caa977f3a3f13040c79a305fa2f7d9da05dde7bf24935d92de",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 598,
+      "class": "unclassified",
+      "name": "REPORT.md",
+      "sha256": "3c35ccd5500f03d66fa345ac212d768870743cfbe28844991c6ac9a975a59bab",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 2062,
+      "class": "receipts",
+      "name": "aggregate.py",
+      "sha256": "cd9cf11eadc2d9443d5eb0f30b8a1e2ea7a50ce8dd2ecd49f64dd7fce14900fc",
+      "treatment": "metadata"
+    },
+    {
+      "bytes": 118,
+      "class": "unclassified",
+      "name": "nodes/_exit_codes.txt",
+      "sha256": "979649d39aae9bded85728ff96079f259d3354c9ee01d31aa040b8d479e4aef1",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 0,
+      "class": "raw",
+      "name": "nodes/barryslone.raw",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 62,
+      "class": "unclassified",
+      "name": "nodes/barryslone.raw.err",
+      "sha256": "9233f20a73db417389b89b327896a631cf5011cc8a523967eddff8924c391142",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 2493,
+      "class": "unclassified",
+      "name": "nodes/inventory.json",
+      "sha256": "9125f9a17d49b1e1fba7142662b2bc7f8c50716ff0b8882e2a0fab81175c678f",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 0,
+      "class": "raw",
+      "name": "nodes/jessicafletcher.raw",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 62,
+      "class": "unclassified",
+      "name": "nodes/jessicafletcher.raw.err",
+      "sha256": "feda0ca4ae6a56fe277a37cb0d197deacc61dd51909c39e4f16814eff03920dc",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 441,
+      "class": "raw",
+      "name": "nodes/markslone.raw",
+      "sha256": "0c23a72b76b66f23f7b4f4c3a4c51f148febce5a18c8ff70e1329ab9e86dc73c",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 0,
+      "class": "unclassified",
+      "name": "nodes/markslone.raw.err",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 0,
+      "class": "raw",
+      "name": "nodes/tanyacheex.raw",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 62,
+      "class": "unclassified",
+      "name": "nodes/tanyacheex.raw.err",
+      "sha256": "314e26a9b96cdb990afcff69f50146eaac9e15092159e31a5cc2981631a9b02d",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 326,
+      "class": "receipts",
+      "name": "probe_exit_codes.txt",
+      "sha256": "e693b94449be186e2f96cfa684927c64dc15d6333bc957f2d3b5c7a15955949d",
+      "treatment": "metadata"
+    },
+    {
+      "bytes": 2291,
+      "class": "unclassified",
+      "name": "remediate.sh",
+      "sha256": "22595ee8bd6e668be2d78089e3fc81277bc84b26245a2fb4a57cdf240eef7c70",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 13406,
+      "class": "unclassified",
+      "name": "remediation_plan.md",
+      "sha256": "383bebbc22af04bbd0bebbfb3c1ee367b455a3eba23875529f1f759db18c3cd3",
+      "treatment": "local-only"
+    },
+    {
+      "bytes": 44282,
+      "class": "raw",
+      "name": "results.json",
+      "sha256": "2c276c39fd2cf79c6a54926c3242112dedf4fed5578ab01d4b3f716be3745e55",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 57,
+      "class": "raw",
+      "name": "routers/_exit_codes.txt",
+      "sha256": "2ff67d3c3169e9813f5b70541485399739fcbe3884e9562f6f994b6089aae0b0",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 0,
+      "class": "raw",
+      "name": "routers/openwrt-secondary/facts.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 66,
+      "class": "raw",
+      "name": "routers/openwrt-secondary/ssh.err",
+      "sha256": "ee0bcfd91d0fe15a5fafffe2aab3f533b700428d5deebbe8959a0b3a1cf5e37f",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 785,
+      "class": "raw",
+      "name": "routers/sharon/dhcp.uci",
+      "sha256": "734f26573af9a423ff6fa0f3261a2793751a99aceacc96b3213b88e595b846c3",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 9164,
+      "class": "raw",
+      "name": "routers/sharon/facts.txt",
+      "sha256": "3542fceaaeca04a20970f1c7449215bc01965f1d68ad97ca4a779b458c9a9fed",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 2607,
+      "class": "raw",
+      "name": "routers/sharon/firewall.uci",
+      "sha256": "06207f6632a62e30af96cdc110b8972d367c9ba9e3c5fe5969cc6855a9739fb9",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 1191,
+      "class": "raw",
+      "name": "routers/sharon/network.uci",
+      "sha256": "abcfbb34f80d81ce34829f7eea1fd795861246bff0fa292a98068a4ae70cdc74",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 392,
+      "class": "raw",
+      "name": "routers/sharon/sqm.uci",
+      "sha256": "7b7d845f7455da4d1da669f373ebe2170ed717079352fc7b103fa6252c97be8f",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 0,
+      "class": "raw",
+      "name": "routers/sharon/ssh.err",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "treatment": "encrypted"
+    },
+    {
+      "bytes": 1094,
+      "class": "raw",
+      "name": "routers/sharon/wireless.uci",
+      "sha256": "36ceb5aa8491b17183c4469935c4a2a3be29b1fff54c1639bb86d4c230004270",
+      "treatment": "encrypted"
+    }
+  ],
+  "flags": [
+    "degraded-probe",
+    "drift-detected"
+  ],
+  "generated": "2026-10-06T03:46:15+00:00",
+  "node": "TanyaCheex",
+  "probes": [
+    {
+      "probe": "01_cf_edge_ai_audit",
+      "status": "skipped"
+    },
+    {
+      "probe": "02_lan_iot_firmware_sweep",
+      "status": "ok"
+    },
+    {
+      "probe": "03_hw_security_blindspots",
+      "status": "ok"
+    },
+    {
+      "probe": "04_github_ai_consolidation",
+      "status": "skipped"
+    },
+    {
+      "probe": "05_local_ai_mcp_audit",
+      "status": "ok"
+    },
+    {
+      "probe": "06_fleet_ssh_inventory",
+      "status": "ok"
+    },
+    {
+      "probe": "08_cloud_deep_audit",
+      "status": "skipped"
+    },
+    {
+      "probe": "09_github_deep_audit",
+      "status": "skipped"
+    },
+    {
+      "probe": "10_storage_health",
+      "status": "ok"
+    },
+    {
+      "probe": "11_services_matrix",
+      "status": "ok"
+    },
+    {
+      "probe": "12_secrets_posture",
+      "status": "degraded"
+    }
+  ],
+  "raw_encrypted": true,
+  "run_id": "run-20261006-044454",
+  "schema_version": 1
+}
