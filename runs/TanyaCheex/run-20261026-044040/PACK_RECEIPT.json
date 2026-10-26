@@ -1,0 +1,24 @@
+{
+  "encryption": {
+    "backend": "age",
+    "encrypted": [
+      {
+        "file": "enc/raw.tar.gz.age",
+        "sha256": "b36e0958707c3658c2eed5498b6f12e300155c7fb8753a592b39beaba0370ddb"
+      }
+    ],
+    "plaintext": [
+      "INDEX.json",
+      "BRIEFING.md"
+    ],
+    "recipient": "age1w5vshjjv9nqu79wnada4hft2m3lsp05p9zck00eplllwmwlk530qanmk5m",
+    "skipped": []
+  },
+  "flags": [
+    "degraded-probe",
+    "drift-detected"
+  ],
+  "node": "TanyaCheex",
+  "packed": "2026-10-26T04:41:59+00:00",
+  "run_id": "run-20261026-044040"
+}
